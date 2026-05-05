@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enrique Poyato Ortiz — iOS Developer CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 48px;
+    }
+
+    /* Header */
+    header { text-align: center; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 2px solid #0066cc; }
+    header h1 { font-size: 24pt; font-weight: 700; letter-spacing: -0.5px; color: #0a0a0a; }
+    header .subtitle { font-size: 12pt; color: #0066cc; margin-top: 4px; font-weight: 500; }
+    .contact-line { margin-top: 10px; font-size: 9.5pt; color: #444; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .contact-line a { color: #0066cc; text-decoration: none; }
+
+    /* Sections */
+    section { margin-bottom: 22px; }
+    h2 {
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #0066cc;
+      border-bottom: 1px solid #d0e4ff;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+
+    /* Profile */
+    .profile p { color: #333; }
+
+    /* Experience */
+    .job { margin-bottom: 16px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+    .job-title { font-weight: 700; font-size: 11pt; }
+    .job-company { font-style: italic; color: #555; font-size: 10pt; margin-top: 1px; }
+    .job-date { font-size: 9.5pt; color: #666; white-space: nowrap; }
+    .job ul { margin-top: 6px; padding-left: 18px; }
+    .job li { margin-bottom: 3px; color: #333; font-size: 10.5pt; }
+
+    /* Skills */
+    .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 24px; }
+    .skill-row { display: flex; gap: 6px; }
+    .skill-label { font-weight: 600; min-width: 140px; color: #333; font-size: 10.5pt; }
+    .skill-value { color: #444; font-size: 10.5pt; }
+
+    /* Projects */
+    .project { margin-bottom: 10px; }
+    .project-name { font-weight: 700; display: inline; }
+    .project-stack { color: #0066cc; font-size: 9.5pt; }
+    .project p { color: #444; font-size: 10pt; margin-top: 2px; }
+
+    /* Education */
+    .edu-item { margin-bottom: 10px; }
+    .edu-title { font-weight: 600; }
+    .edu-sub { color: #555; font-size: 10pt; }
+    .edu-date { font-size: 9.5pt; color: #777; }
+
+    /* Tags */
+    .tag-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+    .tag {
+      background: #e8f0ff;
+      color: #0055bb;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 9pt;
+      font-weight: 500;
+    }
+
+    /* Print */
+    @media print {
+      body { font-size: 10.5pt; }
+      .page { padding: 20px 28px; }
+      a { color: inherit !important; }
+    }
+
+    @page { margin: 1.5cm; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Enrique Poyato Ortiz</h1>
+    <div class="subtitle">Senior iOS Developer · Swift &amp; SwiftUI</div>
+    <div class="contact-line">
+      <span>📧 <a href="mailto:epoyatodev@gmail.com">epoyatodev@gmail.com</a></span>
+      <span>📱 +34 605 213 957</span>
+      <span>🌐 <a href="https://epoyatodev.github.io">epoyatodev.github.io</a></span>
+      <span>💼 <a href="https://linkedin.com/in/enrique-poyato-ortiz-7447b3200">linkedin.com/in/enrique-poyato-ortiz</a></span>
+      <span>🐙 <a href="https://github.com/epoyatodev">github.com/epoyatodev</a></span>
+      <span>📍 Madrid, Spain · Remote</span>
+    </div>
+  </header>
+
+  <!-- PROFILE -->
+  <section class="profile">
+    <h2>Professional Profile</h2>
+    <p>Senior iOS Developer with <strong>4+ years of experience</strong> building native, high-performance mobile applications in Swift and SwiftUI. Specialized in clean architecture (MVVM, Clean Architecture), modular design, and delivering polished user experiences across industries including banking, transportation, education, and automotive. Experienced in both corporate and freelance environments, working fully remote with cross-functional teams. Passionate about pushing the boundaries of SwiftUI and staying current with the Apple ecosystem.</p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Work Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">Senior iOS Developer</div>
+          <div class="job-company">ALTEN Spain — Remote, Madrid</div>
+        </div>
+        <div class="job-date">Oct 2022 — Present</div>
+      </div>
+      <ul>
+        <li>Responsible for the overall architecture and development of iOS applications for public sector clients.</li>
+        <li>Led design, implementation and maintenance of robust, scalable, high-performance mobile solutions.</li>
+        <li>Worked with SwiftUI, UIKit, CoreData and MVVM across iOS 14–17.</li>
+        <li>Collaborated with cross-functional teams to define technical strategy and sprint planning.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag">SwiftUI</span><span class="tag">UIKit</span><span class="tag">CoreData</span>
+        <span class="tag">MVVM</span><span class="tag">Redmine</span><span class="tag">Scrum</span>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">iOS App Developer (Freelance)</div>
+          <div class="job-company">Dinoroco Studios S.L. — Remote</div>
+        </div>
+        <div class="job-date">May 2024 — Nov 2025</div>
+      </div>
+      <ul>
+        <li>Delivered end-to-end mobile solutions using SwiftUI (iOS 16–17) and Swift 6.</li>
+        <li>Built modular, scalable apps from scratch with clean architecture and real-time data handling.</li>
+        <li>Integrated Firebase, MapKit, Combine and SwiftData into production apps.</li>
+        <li>Coordinated tasks and deliverables via Jira in an Agile environment.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag">Swift 6</span><span class="tag">SwiftUI</span><span class="tag">Firebase</span>
+        <span class="tag">MapKit</span><span class="tag">Combine</span><span class="tag">SwiftData</span>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-title">iOS Developer — 3D Object Scanning</div>
+          <div class="job-company">Wimedia — Remote, Madrid</div>
+        </div>
+        <div class="job-date">Mar 2024 — Jun 2024</div>
+      </div>
+      <ul>
+        <li>Built an innovative iOS app leveraging the iPhone TrueDepth camera to scan physical objects.</li>
+        <li>Implemented advanced depth-data processing pipelines to generate accurate 3D models.</li>
+        <li>Worked with AVFoundation, SceneKit and custom Metal shaders.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag">TrueDepth</span><span class="tag">SwiftUI</span><span class="tag">AVFoundation</span>
+        <span class="tag">SceneKit</span><span class="tag">Xcode</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="skill-label">Languages:</span>
+        <span class="skill-value">Swift, Swift 6, Objective-C</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">UI Frameworks:</span>
+        <span class="skill-value">SwiftUI, UIKit</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Frameworks:</span>
+        <span class="skill-value">Firebase, MapKit, CoreData, SwiftData, Combine, Keychain, TrueDepth</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Architecture:</span>
+        <span class="skill-value">MVVM, Clean Architecture, Protocol-Oriented, SOLID, Modularization</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Testing:</span>
+        <span class="skill-value">XCTest, Unit Testing, UI Testing</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Tools:</span>
+        <span class="skill-value">Xcode, Git, Figma, Jira, Redmine, Trello</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Methodologies:</span>
+        <span class="skill-value">Scrum, Agile, CI/CD</span>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Languages (human):</span>
+        <span class="skill-value">Spanish (native), English (B2 professional)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Featured Projects</h2>
+
+    <div class="project">
+      <span class="project-name">Expense Tracker</span>
+      <span class="project-stack"> · SwiftUI · Swift 6 · SwiftData · MVVM</span>
+      <p>Personal finance app to track income, expenses and savings with visual charts and category breakdowns.</p>
+    </div>
+
+    <div class="project">
+      <span class="project-name">Rick &amp; Morty App</span>
+      <span class="project-stack"> · SwiftUI · Swift 6 · SwiftData · REST API</span>
+      <p>Character browser consuming the Rick &amp; Morty REST API with protocol-oriented MVVM and local persistence.</p>
+    </div>
+
+    <div class="project">
+      <span class="project-name">MapKit Search &amp; Route</span>
+      <span class="project-stack"> · SwiftUI · MapKit · LookAround</span>
+      <p>Interactive map app with place search, route planning and the native LookAround street-level view.</p>
+    </div>
+
+    <div class="project">
+      <span class="project-name">Task App</span>
+      <span class="project-stack"> · SwiftUI · Firebase · Auth · Firestore</span>
+      <p>Real-time task management with user authentication and cloud sync.</p>
+    </div>
+
+    <div class="project">
+      <span class="project-name">Animated Paging Indicators &amp; Custom Blur Sheet</span>
+      <span class="project-stack"> · SwiftUI · Open Source Components</span>
+      <p>Drop-in SwiftUI components for onboarding flows and native blur bottom sheets.</p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+
+    <div class="edu-item">
+      <div class="edu-title">Higher National Diploma in Web Application Development</div>
+      <div class="edu-sub">IES Marqués de Comares — Lucena, Córdoba</div>
+      <div class="edu-date">2020</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-title">Vocational Qualification in Microcomputer Systems and Networks</div>
+      <div class="edu-sub">IES Marqués de Comares — Lucena, Córdoba</div>
+      <div class="edu-date">2018</div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section>
+    <h2>Courses &amp; Certifications</h2>
+
+    <div class="edu-item">
+      <div class="edu-title">Full Stack Mobile Bootcamp</div>
+      <div class="edu-sub">KepCoding — SwiftUI, UIKit, Kotlin, Flutter, React Native, CoreData</div>
+      <div class="edu-date">2022–2023</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-title">Swift 6 and Strict Concurrency in SwiftUI</div>
+      <div class="edu-sub">Advanced Swift 6 features and strict concurrency models</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-title">Augmented Reality and VisionOS</div>
+      <div class="edu-sub">Reality Composer, 3D Models, Combine, Spatial Design</div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
