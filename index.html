@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enrique Poyato — iOS Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">EP<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-content reveal">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Enrique<br><span class="gradient-text">Poyato Ortiz</span></h1>
+      <p class="hero-title"><span class="mono">iOS Developer</span> — Swift &amp; SwiftUI</p>
+      <p class="hero-sub">Building high-quality native iOS experiences from Madrid 🇪🇸</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">Swift 6</span>
+        <span class="badge">SwiftUI</span>
+        <span class="badge">Remote</span>
+        <span class="badge">250€/day</span>
+      </div>
+    </div>
+    <div class="hero-image reveal reveal-delay">
+      <div class="avatar-ring">
+        <img src="assets/profile.jpeg" alt="Enrique Poyato" class="avatar" />
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>I'm an iOS developer with <strong>3+ years of experience</strong> building native, high-performance apps using Swift and SwiftUI. I care deeply about clean architecture, smooth performance, and user experiences that feel natural on Apple devices.</p>
+          <p>I work fully <strong>remote</strong>, collaborate with cross-functional teams, and have delivered end-to-end mobile solutions across sectors like banking, transportation, education, and automotive.</p>
+          <p>Outside of client work, I enjoy building personal projects that push the limits of SwiftUI — from 3D scanning apps to custom UI components.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Industries</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Repositories</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Languages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Tech <span class="gradient-text">Stack</span></h2>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <h3 class="skill-group-title">Core</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Swift</span>
+            <span class="skill-tag primary">SwiftUI</span>
+            <span class="skill-tag primary">UIKit</span>
+            <span class="skill-tag">Objective-C</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frameworks</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Firebase</span>
+            <span class="skill-tag primary">MapKit</span>
+            <span class="skill-tag primary">CoreData</span>
+            <span class="skill-tag primary">SwiftData</span>
+            <span class="skill-tag">Keychain</span>
+            <span class="skill-tag">TrueDepth</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Architecture</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">MVVM</span>
+            <span class="skill-tag primary">Clean Architecture</span>
+            <span class="skill-tag">Protocol-Oriented</span>
+            <span class="skill-tag">SOLID</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Xcode</span>
+            <span class="skill-tag primary">Git</span>
+            <span class="skill-tag primary">Figma</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Scrum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Personal <span class="gradient-text">Projects</span></h2>
+      <p class="section-sub reveal">Open-source iOS apps and UI components built with SwiftUI</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">💰</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/ExpenseTracker" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-desc">Personal finance app to track income, expenses and savings with visual charts and category breakdowns.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Swift 6</span><span>SwiftData</span><span>MVVM</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🧬</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/RickAndMortyApp" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Rick &amp; Morty App</h3>
+          <p class="project-desc">Character browser consuming the Rick &amp; Morty REST API, showcasing protocol-oriented MVVM and local persistence.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Swift 6</span><span>SwiftData</span><span>REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🗺️</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/MapKitSwiftUI" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">MapKit Search &amp; Route</h3>
+          <p class="project-desc">Interactive map app with place search, route planning and the native LookAround street-level view.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>MapKit</span><span>LookAround</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">☀️</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/WeatherAppDesign" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Weather App Design</h3>
+          <p class="project-desc">Polished weather app UI focused on beautiful animations, glassmorphism cards and fluid transitions.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Animations</span><span>UI Design</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">✅</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/TaskApp" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Task App</h3>
+          <p class="project-desc">Real-time task management app with user authentication and cloud sync powered by Firebase.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Firebase</span><span>Auth</span><span>Firestore</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal component-card">
+          <div class="project-header">
+            <div class="project-icon">🎨</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/Animated-Paging-Indicators" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <span class="component-badge">Component</span>
+          <h3 class="project-title">Animated Paging Indicators</h3>
+          <p class="project-desc">Drop-in SwiftUI component with smooth, customisable paging dot animations for onboarding flows.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Component</span><span>Animation</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal component-card">
+          <div class="project-header">
+            <div class="project-icon">🪟</div>
+            <div class="project-links">
+              <a href="https://github.com/epoyatodev/BottonSheet" target="_blank" class="project-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <span class="component-badge">Component</span>
+          <h3 class="project-title">Custom Blur Sheet</h3>
+          <p class="project-desc">Reusable SwiftUI bottom sheet with native blur effect, drag gesture and configurable snap points.</p>
+          <div class="project-tags">
+            <span>SwiftUI</span><span>Component</span><span>Gesture</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Work <span class="gradient-text">Experience</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior iOS Developer</h3>
+                <p class="timeline-company">ALTEN</p>
+              </div>
+              <span class="timeline-date">Oct 2022 — Present</span>
+            </div>
+            <p class="timeline-desc">Responsible for the overall architecture and development of iOS applications. Led the design, implementation, and maintenance of robust, scalable, and high-performance mobile solutions. Collaborated with cross-functional teams to define technical strategy.</p>
+            <div class="timeline-tags">
+              <span>SwiftUI</span><span>UIKit</span><span>Architecture</span><span>Team Lead</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">iOS App Developer</h3>
+                <p class="timeline-company">Dinoroco Studios S.L.</p>
+              </div>
+              <span class="timeline-date">May 2024 — Nov 2025</span>
+            </div>
+            <p class="timeline-desc">Delivered end-to-end mobile solutions using SwiftUI (iOS 16–17, Swift 6). Built apps from scratch with robust architecture, real-time data handling, and seamless user experiences.</p>
+            <div class="timeline-tags">
+              <span>Swift 6</span><span>SwiftUI</span><span>Real-time data</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">iOS Developer — 3D Scanning</h3>
+                <p class="timeline-company">Wimedia</p>
+              </div>
+              <span class="timeline-date">Mar 2024 — Jun 2024</span>
+            </div>
+            <p class="timeline-desc">Built an innovative iOS app leveraging the iPhone TrueDepth camera to scan physical objects and generate accurate 3D models. Implemented advanced depth-data processing pipelines.</p>
+            <div class="timeline-tags">
+              <span>TrueDepth</span><span>SwiftUI</span><span>3D Models</span><span>Xcode</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Let's <span class="gradient-text">Work Together</span></h2>
+      <p class="section-sub reveal">Available for freelance projects · Remote · 250€/day</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:epoyatodev@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">epoyatodev@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/enrique-poyato-ortiz-%EF%A3%BF-7447b3200/" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Enrique Poyato Ortiz</span>
+        </a>
+        <a href="https://github.com/epoyatodev" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">epoyatodev</span>
+        </a>
+        <a href="https://www.malt.es/profile/enriquepoyatoortiz" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <span class="contact-label">Malt</span>
+          <span class="contact-value">enriquepoyatoortiz</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Designed &amp; built by <span class="gradient-text">Enrique Poyato Ortiz</span> · 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
