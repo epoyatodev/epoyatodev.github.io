@@ -124,6 +124,7 @@ const translations = {
     'nav.about': 'About',
     'nav.skills': 'Skills',
     'nav.projects': 'Projects',
+    'nav.appstore': 'App Store',
     'nav.experience': 'Experience',
     'nav.contact': 'Contact',
 
@@ -185,7 +186,7 @@ const translations = {
     'exp.wimedia.desc': 'Built an innovative iOS app leveraging the iPhone TrueDepth camera to scan physical objects and generate accurate 3D models. Implemented advanced depth-data processing pipelines.',
 
     'contact.title': "Let's <span class=\"gradient-text\">Work Together</span>",
-    'contact.sub': 'Available for freelance projects · Remote · 250€/day',
+    'contact.sub': 'Available for freelance projects · Remote',
     'contact.email': 'Email',
 
     'footer.text': 'Designed &amp; built by <span class="gradient-text">Enrique Poyato Ortiz</span> · 2026',
@@ -195,6 +196,7 @@ const translations = {
     'nav.about': 'Sobre mí',
     'nav.skills': 'Habilidades',
     'nav.projects': 'Proyectos',
+    'nav.appstore': 'App Store',
     'nav.experience': 'Experiencia',
     'nav.contact': 'Contacto',
 
@@ -256,7 +258,7 @@ const translations = {
     'exp.wimedia.desc': 'Desarrollé una app iOS innovadora que aprovecha la cámara TrueDepth del iPhone para escanear objetos físicos y generar modelos 3D precisos. Implementé pipelines avanzados de procesamiento de datos de profundidad.',
 
     'contact.title': 'Trabajemos <span class="gradient-text">Juntos</span>',
-    'contact.sub': 'Disponible para proyectos freelance · Remoto · 250€/día',
+    'contact.sub': 'Disponible para proyectos freelance · Remoto',
     'contact.email': 'Email',
 
     'footer.text': 'Diseñado y desarrollado por <span class="gradient-text">Enrique Poyato Ortiz</span> · 2026',
