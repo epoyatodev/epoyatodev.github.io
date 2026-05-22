@@ -129,7 +129,7 @@ const translations = {
     'nav.contact': 'Contact',
 
     'hero.greeting': "Hello, I'm",
-    'hero.sub': 'Building high-quality native iOS experiences from Madrid 🇪🇸',
+    'hero.sub': 'Building high-quality native iOS experiences 🇪🇸',
     'hero.btn.projects': 'View Projects',
     'hero.btn.cv': 'Download CV',
     'hero.btn.contact': 'Get in Touch',
@@ -201,7 +201,7 @@ const translations = {
     'nav.contact': 'Contacto',
 
     'hero.greeting': 'Hola, soy',
-    'hero.sub': 'Creando experiencias iOS nativas y de alta calidad desde Madrid 🇪🇸',
+    'hero.sub': 'Creando experiencias iOS nativas y de alta calidad 🇪🇸',
     'hero.btn.projects': 'Ver Proyectos',
     'hero.btn.cv': 'Descargar CV',
     'hero.btn.contact': 'Contactar',
