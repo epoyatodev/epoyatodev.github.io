@@ -149,6 +149,12 @@ const translations = {
     'skills.architecture': 'Architecture',
     'skills.tools': 'Tools',
 
+    'appstore.title': 'Published on <span class="gradient-text">App Store</span>',
+    'appstore.sub': 'Native iOS apps available on the Apple App Store',
+    'badge.appstore': 'App Store',
+    'app.mitrimestre.title': 'MiTrimestre',
+    'app.mitrimestre.desc': 'iOS app for Spanish freelancers to manage quarterly VAT (IVA) and income tax (IRPF) in real time. Features AI invoice scanning, iCloud sync, PDF export, and deadline reminders.',
+
     'projects.title': 'Personal <span class="gradient-text">Projects</span>',
     'projects.sub': 'Open-source iOS apps and UI components built with SwiftUI',
     'badge.component': 'Component',
@@ -213,6 +219,12 @@ const translations = {
     'skills.frameworks': 'Frameworks',
     'skills.architecture': 'Arquitectura',
     'skills.tools': 'Herramientas',
+
+    'appstore.title': 'Publicado en <span class="gradient-text">App Store</span>',
+    'appstore.sub': 'Apps iOS nativas disponibles en la Apple App Store',
+    'badge.appstore': 'App Store',
+    'app.mitrimestre.title': 'MiTrimestre',
+    'app.mitrimestre.desc': 'App iOS para autónomos españoles para gestionar el IVA e IRPF trimestral en tiempo real. Incluye escaneo de facturas con IA, sincronización con iCloud, exportación PDF y recordatorios de plazos.',
 
     'projects.title': 'Proyectos <span class="gradient-text">Personales</span>',
     'projects.sub': 'Apps iOS open-source y componentes UI construidos con SwiftUI',

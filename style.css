@@ -563,6 +563,34 @@ body {
   margin-bottom: 12px;
 }
 
+.appstore-icon {
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+}
+
+.appstore-icon img {
+  border-radius: 22%;
+  width: 48px;
+  height: 48px;
+  display: block;
+  object-fit: cover;
+}
+
+.appstore-badge {
+  display: inline-block;
+  background: rgba(52,199,89,0.15);
+  border: 1px solid rgba(52,199,89,0.3);
+  color: #4ade80;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
 .project-title {
   font-size: 1.15rem;
   font-weight: 600;
